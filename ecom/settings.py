@@ -16,7 +16,7 @@ load_dotenv()
 SECRET_KEY = 'django-insecure-hp-5b5+o!khnl*b9$m693y5m$x-rr%m#iqo2n2!y!=45zh_kj)'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['testapp-production-f604.up.railway.app', 'https://testapp-production-f604.up.railway.app']
 CSFR_TRUSTED_ORIGINS = ['https://testapp-production-f604.up.railway.app']
